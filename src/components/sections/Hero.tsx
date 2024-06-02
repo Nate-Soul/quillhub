@@ -23,9 +23,9 @@ const Hero = () => {
             <div className="mt-12 flex items-between gap-x-6">
               <div className="flex items-center gap-0">
                 <Image src="/media/images/profiles/profile-1.png" alt="" className="rounded-full" height={60} width={60} />
-                <Image src="/media/images/profiles/profile-2.png" alt="" className="rounded-full -ml-4" height={60} width={60} />
-                <Image src="/media/images/profiles/profile-3.png" alt="" className="rounded-full -ml-4" height={60} width={60} />
-                <div className="bg-primary-900 inline-flex justify-center items-center text-white h-[60px] w-[60px] rounded-full -ml-4">
+                <Image src="/media/images/profiles/profile-2.png" alt="" className="rounded-full -ml-6" height={60} width={60} />
+                <Image src="/media/images/profiles/profile-3.png" alt="" className="rounded-full -ml-6" height={60} width={60} />
+                <div className="bg-primary-900 inline-flex justify-center items-center text-white h-[60px] w-[60px] rounded-full -ml-6">
                   <span className="bi-plus"></span>
                 </div>
               </div>

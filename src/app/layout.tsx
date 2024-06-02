@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { EB_Garamond } from "next/font/google";
 import "./globals.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 import MainHeader from "../components/MainHeader";
 import MainFooter from "../components/MainFooter";
 
@@ -123,7 +125,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-lufga">
+      <body className={`${lufga.variable} ${garamond.variable} font-lufga`}>
         <MainHeader/>
         <main>
           {children}

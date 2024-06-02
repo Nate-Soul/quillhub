@@ -31,17 +31,17 @@ const Navbar = () => {
     <nav className="bg-primary-900 text-white py-4">
       <div className="container flex items-center justify-between gap-x-3">
         <Logo/>
-        <ul className="flex items-center gap-x-5 text-lg text-light-200">
+        <ul className="flex items-center gap-x-5 text-lg text-light-300">
             {navLinks?.map((navLink, navLinkIndex) => (
                 <li>
                     <Link href={navLink.url} key={navLinkIndex} className={`${currentUrl === navLink.url ? 'text-white border-b-[3px] border-primary-500 hover:text-primary-300' : 'hover:text-white'}`}>{navLink.text}</Link>
                 </li>
             ))}
         </ul>
-        <div className="flex items-center gap-x-14 text-lg text-light-200">
-          <ul className="flex items-center gap-x-4">
+        <div className="flex items-center gap-x-14 text-lg text-light-300">
+          <ul className="flex items-center gap-x-5">
             <li>
-              <span className="bi-bell"></span>
+              <span className="bi-search"></span>
             </li>
             <li>
               <span className="bi-bell"></span>

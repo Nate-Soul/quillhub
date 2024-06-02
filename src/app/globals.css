@@ -13,3 +13,7 @@
 .btn-outline-primary-500 {
   @apply border border-primary-500 text-primary-500;
 }
+
+.btn-outline-white {
+  @apply border border-white text-white;
+}

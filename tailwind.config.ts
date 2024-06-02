@@ -24,8 +24,11 @@ const config: Config = {
         "primary-600": "#00ab07",
         "primary-900": "#0b6236",
         "secondary-500": "#180c33",
+        "highlight": "#EBF5EE",
         "light-100": "#fcfcfc",
-        "light-200": "#b7b7b7",
+        "light-200": "#FDFEFA",
+        "light-300": "#b7b7b7",
+        "light-400": "#D2D1D1",
         "dark-400": "#615F5F",
       },
       fontFamily: {
