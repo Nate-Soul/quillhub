@@ -4,7 +4,7 @@ import SectionHeading from "../subcomponents/SectionHeading"
 
 const AboutSection = () => {
   return (
-    <section className="bg-highlight pt-20 h-[612px] overflow-hidden relative">
+    <section id="aboutUs" className="bg-highlight pt-20 h-[612px] overflow-hidden relative">
         <div className="absolute -top-[52px] left-1/2 -translate-x-1/2 h-[126px] w-[425px] bg-white rounded-full"></div>
       <div className="container">
         <SectionHeading title="About Us" headerStyles="mx-auto text-center mt-6 mb-10" dark={false} />
@@ -15,7 +15,7 @@ const AboutSection = () => {
                 </p>
             </div>
             <div className="flex items-center justify-center gap-x-6">
-                <button className="btn btn-outline-white py-2 px-8 rounded-3xl font-bold">
+                <button className="btn btn-outline-primary-500 py-2 px-8 rounded-3xl font-bold">
                     Explore <span className="bi-arrow-right"></span>
                 </button>
                 <button className="btn btn-primary-500 py-2 px-8 rounded-3xl font-bold">

@@ -48,10 +48,10 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="flex items-center gap-x-4 border-[0.5px] rounded-2xl h-max">
-            <Link href="/login" className="btn bg-transparent text-white pt-1 pb-2 px-4 rounded-2xl">
+            <Link href="/login" className="btn bg-transparent text-white py-1 px-4 rounded-2xl">
               Login
             </Link>
-            <Link href="/signup" className="btn btn-primary-500 font-medium pt-1 pb-2 px-4 rounded-2xl">
+            <Link href="/signup" className="btn btn-primary-500 font-medium py-1 px-4 rounded-2xl">
               Sign up
             </Link>
           </div>
