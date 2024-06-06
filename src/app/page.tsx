@@ -4,6 +4,7 @@ import AboutSection from "@/components/sections/AboutSection";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Stats from "@/components/sections/Stats";
 import JoinCommunityCTA from "@/components/sections/JoinCommunityCTA";
+import Testimonials from "@/components/sections/Testimonials";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
     <WhyChooseUs/>
     <Stats/>
     <JoinCommunityCTA/>
+    <Testimonials/>
     </>
   );
 }
