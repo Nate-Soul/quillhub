@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+  --light-100: #fcfcfc;
+  --light-200: #FDFEFA;
+  --light-300: #b7b7b7;
+  --light-400: #D2D1D1;
+  --light-x: #808481;
+  --secondary-500: #8475A6;
+  --secondary-x: #180c33;
+}
+
+
 .btn {
   @apply inline-flex items-center justify-center gap-x-2
 }

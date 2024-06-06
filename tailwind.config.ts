@@ -23,12 +23,14 @@ const config: Config = {
         "primary-500": "#00be3d",
         "primary-600": "#00ab07",
         "primary-900": "#0b6236",
+        "secondary-50": "#180c33",
         "secondary-500": "#180c33",
         "highlight": "#EBF5EE",
         "light-100": "#fcfcfc",
         "light-200": "#FDFEFA",
         "light-300": "#b7b7b7",
         "light-400": "#D2D1D1",
+        "light-500": "#808481",
         "dark-400": "#615F5F",
       },
       fontFamily: {
@@ -36,7 +38,7 @@ const config: Config = {
         garamond: ['var(--font-garamond)'],
       },
       boxShadow: {
-        'custom-sm': '0 0.2px 4px 0 rgba(80, 69, 56, .20)',
+        'custom-sm': '0 2px 2px 0 rgba(0, 0, 0, .25)',
         'custom': '0 4px 4px 0 rgba(0, 0, 0, .25)',
       },
       zIndex: {
@@ -46,6 +48,9 @@ const config: Config = {
         '90': '90',
         '99': '99',
       },
+      borderRadius: {
+        "4xl": "2rem"
+      }
     },
   },
   plugins: [],

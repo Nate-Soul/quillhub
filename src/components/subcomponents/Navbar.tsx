@@ -32,11 +32,16 @@ const Navbar = () => {
       <div className="container flex items-center justify-between gap-x-3">
         <Logo/>
         <ul className="flex items-center gap-x-5 text-lg text-light-300">
-            {navLinks?.map((navLink, navLinkIndex) => (
-                <li>
-                    <Link href={navLink.url} key={navLinkIndex} className={`${currentUrl === navLink.url ? 'text-white border-b-[3px] border-primary-500 hover:text-primary-300' : 'hover:text-white'}`}>{navLink.text}</Link>
-                </li>
-            ))}
+        {navLinks?.map((navLink, navLinkIndex) => (
+          <li key={navLinkIndex}>
+              <Link 
+                href={navLink.url} 
+                className={`${currentUrl === navLink.url ? 'text-white border-b-[3px] border-primary-500 hover:text-primary-300' : 'hover:text-white'}`}
+              >
+                {navLink.text}
+              </Link>
+          </li>
+        ))}
         </ul>
         <div className="flex items-center gap-x-14 text-lg text-light-300">
           <ul className="flex items-center gap-x-5">
