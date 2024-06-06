@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Stats from "@/components/sections/Stats";
 import JoinCommunityCTA from "@/components/sections/JoinCommunityCTA";
 import Testimonials from "@/components/sections/Testimonials";
+import FAQ from "@/components/sections/FAQ";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <Stats/>
     <JoinCommunityCTA/>
     <Testimonials/>
+    <FAQ/>
     </>
   );
 }

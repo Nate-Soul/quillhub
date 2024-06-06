@@ -29,3 +29,11 @@
 .btn-outline-white {
   @apply border border-white text-white;
 }
+
+.accordion-item[open]{
+  @apply border-l-[5px] border-primary-900;
+}
+
+.accordion-item[open] .accordion-marker::before {
+  content: "\F62A"
+} 
