@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
           <figure className="rounded-lg overflow-hidden h-[733px]">
-            <Image src="/media/images/gallery/pexels-karolina-grabowska.png" alt="" height={733} width={733} className="rounded-lg w-full h-full object-cover" />
+            <Image src="/media/images/gallery/pexels-karolina-grabowska.jpg" alt="" height={733} width={733} className="rounded-lg w-full h-full object-cover" />
           </figure>
         </div>
     </section>
