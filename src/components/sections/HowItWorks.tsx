@@ -52,7 +52,6 @@ const HowItWorks = () => {
                 title="Your Writing Journey"
                 fancySubtitle="How QuillHub works"
                 headerStyles="mb-10 w-1/2"
-                dark={false}
             />
             <div className="flex gap-10 items-center">
                 <div className="basis-1/2 flex flex-col gap-y-8">

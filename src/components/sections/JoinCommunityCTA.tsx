@@ -20,7 +20,6 @@ const JoinCommunityCTA = () => {
                     title="Our Community"
                     subtitle="Join our community of writers and win together"
                     headerStyles="text-center"
-                    dark={true}
                 />
                 <div className="text-2xl font-garamond flex flex-col gap-y-4">
                     <p>
