@@ -54,7 +54,6 @@ const FAQ = () => {
             title="FAQs"
             subtitle="Our most frequent questions"
             headerStyles="mb-10"
-            dark={false}
         />
         <div className="columns-2">
             <div>
@@ -64,7 +63,7 @@ const FAQ = () => {
             </div>
         </div>
         <div className="grid grid-cols-2 gap-0 mt-10">
-            <figure>
+            <figure className="rounded-3xl overflow-hidden">
                 <Image
                     src="/media/images/gallery/creating-a-blog-post-outline.jpg"
                     alt="Writer creating a blog post outline on her laptop"
@@ -73,21 +72,21 @@ const FAQ = () => {
                     className="w-full h-full object-cover"
                 />
             </figure>
-            <div className="bg-highlight p-5">
+            <div className="p-5">
                 <h4 className="text-xl mb-8">Do you have new questions? Ask away!</h4>
                 <form className="flex flex-col gap-y-4">
                     <input 
                         type="text" 
                         name="query_name" 
                         id="queryName" 
-                        className="bg-white rounded-lg py-2 px-3" 
+                        className="bg-white rounded-lg py-2 px-3 border border-light-500" 
                         placeholder="Name"
                     />
                     <input 
                         type="email" 
                         name="query_email" 
                         id="queryEmail" 
-                        className="bg-white rounded-lg py-2 px-3" 
+                        className="bg-white rounded-lg py-2 px-3 border border-light-500" 
                         placeholder="Email Address"
                     />
                     <textarea 
@@ -95,7 +94,7 @@ const FAQ = () => {
                         id="queryMessage"
                         rows={5}
                         placeholder="Message"
-                        className="bg-white rounded-lg py-2 px-3"
+                        className="bg-white rounded-lg py-2 px-3 border border-light-500"
                     ></textarea>
                     <button className="btn btn-primary-500 py-2 px-8 mx-auto mt-10 w-max rounded-4xl">Send Message</button>
                 </form>

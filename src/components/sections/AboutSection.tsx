@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section id="aboutUs" className="bg-highlight pt-20 h-[612px] overflow-hidden relative">
         <div className="absolute -top-[52px] left-1/2 -translate-x-1/2 h-[126px] w-[425px] bg-white rounded-full"></div>
       <div className="container">
-        <SectionHeading title="About Us" headerStyles="mx-auto text-center mt-6 mb-10" dark={false} />
+        <SectionHeading title="About Us" headerStyles="mx-auto text-center mt-6 mb-10" />
         <div className="flex flex-col gap-y-8">
             <div className="w-3/5 mx-auto font-garamond text-black">
                 <p>

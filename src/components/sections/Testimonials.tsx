@@ -35,10 +35,10 @@ const Testimonials = () => {
     <section className="py-16 bg-highlight">
       <div className="container">
         <SectionHeading 
+            fancySubtitle="WHAT PEOPLE HAVE TO SAY"
             title="User Reviews"
-            subtitle="What our writers are saying"
-            headerStyles="mb-10 w-/12"
-            dark={false}
+            subtitle="Read genuine user reviews to learn about real experiences with our products and services, helping you make informed decisions."
+            headerStyles="mb-10 w-1/2 mx-auto text-center"
         />
         <div className="relative">
             <button className="absolute top-1/2 -translate-y-1/2 left-0 btn h-16 w-14 rounded-3xl bg-white text-dark-400 hover:bg-primary-300 hover:text-light-200">

@@ -31,7 +31,7 @@
 }
 
 .accordion-item[open]{
-  @apply border-l-[5px] border-primary-900;
+  @apply border-l-[5px] border-primary-900 bg-highlight;
 }
 
 .accordion-item[open] .accordion-marker::before {

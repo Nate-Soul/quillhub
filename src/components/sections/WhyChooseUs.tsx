@@ -26,38 +26,38 @@ const WhyChooseUs = () => {
         },
         {
             id: 4,
-            iconUrl: "/media/images/icons/people-community-add.svg",
-            title: "Supportive Community",
-            subtext: "Connect with like-minded authors, share your achievements, and receive recognition for your efforts.",
-        },
-        {
-            id: 5,
             iconUrl: "/media/images/icons/mail_drop.svg",
             title: "Consistent Reminders",
             subtext: "Never miss a writing session with our regular email notifications and reminders.",
+        },
+        {
+            id: 5,
+            iconUrl: "/media/images/icons/people-community-add.svg",
+            title: "Supportive Community",
+            subtext: "Connect with like-minded authors, share your achievements, and receive recognition for your efforts.",
         },
     ];
 
   return (
     <section className="py-16">
         <div className="container">
-            <SectionHeading 
-                title="Why Choose Us" 
-                subtitle="Explore our special features and enjoy writing"
-                headerStyles="mb-10 mx-auto text-center"
-                dark={false} 
-            />
             <div className="flex gap-10">
-                <figure className="basis-3/5 rounded-[2rem] overflow-hidden">
+                <figure className="basis-3/5 px-6">
                     <Image
-                        src="/media/images/gallery/happy-black-woman-working.jpg"
+                        src="/media/images/gallery/smiling-woman-working-on-laptop.jpg"
                         alt="Lady author on a cross chair writing on her laptop"
-                        height={680}
-                        width={680}
-                        className="w-full h-full object-cover"
+                        height={751}
+                        width={567}
+                        className="w-full h-full object-cover rounded-[40px]"
                     />
                 </figure>
                 <div className="basis-2/5 flex flex-col gap-y-16">
+                <SectionHeading 
+                    fancySubtitle="Why Choose Us"
+                    title="OUR KEY FEATURES & SERVICES" 
+                    subtitle="Quillhub has several exciting features that makes writing engaging and interesting for all type of writers. "
+                    headerStyles="mb-10"
+                />
                     <div className="flex flex-col gap-y-8">
                     {steps?.map((step, stepIndex) => (
                         <WhyChooseUsCard step={step} key={stepIndex} />
