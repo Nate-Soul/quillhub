@@ -24,7 +24,8 @@ const AboutSection2 = () => {
                     alt="" 
                     width={726} 
                     height={788} 
-                    className="w-full h-full object-cover" 
+                    className="w-full h-full object-cover"
+                    priority
                 />
             </figure>
         </div>

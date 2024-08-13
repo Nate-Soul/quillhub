@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
         <figure>
-          <Image src="/media/images/gallery/users-dashboard.png" alt="" height={600} width={600} className="object-cover -rotate-[5deg] rounded-2xl absolute -right-[15%] top-0 w-3/5 opacity-40" />
+          <Image src="/media/images/gallery/users-dashboard.png" alt="" height={600} width={600} className="object-cover -rotate-[5deg] rounded-2xl absolute -right-[15%] top-0 w-3/5 opacity-40" priority/>
         </figure>
       </div>
     </section>
