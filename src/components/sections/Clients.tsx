@@ -26,7 +26,7 @@ const Clients = () => {
         <div className="container">
             <div className="grid grid-cols-12 gap-y-6 md:gap-y-0">
                 <div className="col-span-full md:col-span-2">
-                    <h6 className="uppercase font-extrabold text-sm">
+                    <h6 className="uppercase font-extrabold text-sm text-light-300">
                         We're Trusted by Top writing firms
                     </h6>
                 </div>

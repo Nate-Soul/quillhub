@@ -63,7 +63,7 @@ const FAQ = () => {
             </div>
         </div>
         <div className="grid grid-cols-2 gap-0 mt-10">
-            <figure className="rounded-3xl overflow-hidden">
+            <figure className="rounded-3xl overflow-hidden relative">
                 <Image
                     src="/media/images/gallery/creating-a-blog-post-outline.jpg"
                     alt="Writer creating a blog post outline on her laptop"
@@ -71,6 +71,9 @@ const FAQ = () => {
                     width={641}
                     className="w-full h-full object-cover"
                 />
+                <figcaption>
+                    <div className="absolute top-0 left-0 bottom-0 right-0 bg-black bg-opacity-20"></div>
+                </figcaption>
             </figure>
             <div className="p-5">
                 <h4 className="text-xl mb-8">Do you have new questions? Ask away!</h4>

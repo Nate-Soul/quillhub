@@ -34,7 +34,7 @@ const HowItWorks2 = () => {
                 title="HOW IT WORKS"
                 headerStyles="mx-auto text-center"
             />
-            <div className="grid grid-cols-3 gap-x-8 py-20">
+            <div className="grid grid-cols-3 gap-x-8 py-28">
             {steps && steps.map(step => (
                 <figure key={step.id} className="flex flex-col gap-y-4 items-center text-center p-3">
                     <Image src={step.iconUrl} alt="" height={46} width={46} />

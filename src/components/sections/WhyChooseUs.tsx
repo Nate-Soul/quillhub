@@ -42,30 +42,32 @@ const WhyChooseUs = () => {
     <section className="py-16">
         <div className="container">
             <div className="flex gap-10">
-                <figure className="basis-3/5 px-6">
+                <figure className="basis-3/5 mx-6 relative rounded-[40px] overflow-hidden">
                     <Image
                         src="/media/images/gallery/smiling-woman-working-on-laptop.jpg"
                         alt="Lady author on a cross chair writing on her laptop"
                         height={751}
                         width={567}
-                        className="w-full h-full object-cover rounded-[40px]"
+                        className="w-full h-full object-cover "
                     />
+                    <figcaption>
+                    <div className="absolute top-0 left-0 bottom-0 right-0 bg-black bg-opacity-20"></div>
+                    </figcaption>
                 </figure>
                 <div className="basis-2/5 flex flex-col gap-y-16">
                 <SectionHeading 
                     fancySubtitle="Why Choose Us"
                     title="OUR KEY FEATURES & SERVICES" 
-                    subtitle="Quillhub has several exciting features that makes writing engaging and interesting for all type of writers. "
-                    headerStyles="mb-10"
+                    subtitle="Quillhub has several exciting features that makes writing engaging and interesting for all type of writers."
                 />
                     <div className="flex flex-col gap-y-8">
                     {steps?.map((step, stepIndex) => (
                         <WhyChooseUsCard step={step} key={stepIndex} />
                     ))}
                     </div>
-                    <button className="btn btn-primary-500 py-2 px-8 w-max rounded-[2rem] mx-auto">
+                    {/* <button className="btn btn-primary-500 py-2 px-8 w-max rounded-[2rem] mx-auto">
                         Start your writing journey
-                    </button>                    
+                    </button>                     */}
                 </div>
             </div>
         </div>

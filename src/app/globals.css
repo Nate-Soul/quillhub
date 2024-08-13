@@ -27,7 +27,7 @@
 }
 
 .btn-outline-white {
-  @apply border border-white text-white;
+  @apply border bg-light-200;
 }
 
 .accordion-item[open]{
