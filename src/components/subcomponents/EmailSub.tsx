@@ -7,7 +7,7 @@ const EmailSub = () => {
             <div className="px-10">
                 <div className="bg-white p-8 flex flex-col items-center justify-center text-center gap-y-4 py-10 px-5 rounded-lg">
                     <h5 className="text-2xl font-semibold text-primary-900">Subscribe to our Newsletter</h5>
-                    <p className="font-garamond text-dark-400">
+                    <p className="font-alvenir text-dark-400">
                         Stay up to date with our latest upgrades  
                     </p>
                     <div className="flex items-center justify-center gap-x-4">

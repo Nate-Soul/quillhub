@@ -1,19 +1,46 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 import MainHeader from "../components/MainHeader";
 import MainFooter from "../components/MainFooter";
 
-const garamond = EB_Garamond(
-  { 
-    subsets: ["latin"],
-    weight: ["400"],
-    variable: "--font-garamond" 
-  }
-);
+const alvenir = localFont({
+  src: [
+    {
+      path: "../static/fonts/alvenir/Avenir-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../static/fonts/alvenir/Avenir-Book.ttf",
+      weight: "350",
+      style: "normal",
+    },
+    {
+      path: "../static/fonts/alvenir/Avenir-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../static/fonts/alvenir/Avenir-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../static/fonts/alvenir/Avenir-Black.ttf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../static/fonts/alvenir/Avenir-Heavy.ttf",
+      weight: "900",
+      style: "normal",
+    },
+  ],
+  variable: "--font-alvenir",
+});
 
 const lufga = localFont({
   src: [
@@ -111,8 +138,6 @@ const lufga = localFont({
   variable: "--font-lufga"
 });
 
-
-
 export const metadata: Metadata = {
   title: "QuillHub",
   description: "Built for writers by writers",
@@ -125,7 +150,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lufga.variable} ${garamond.variable} font-lufga`}>
+      <body className={`${lufga.variable} ${alvenir.variable} font-lufga`}>
         <MainHeader/>
         <main>
           {children}

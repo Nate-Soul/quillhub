@@ -23,7 +23,7 @@ const WhyChooseUsCard: React.FC<WhyChooseUsCardProps> = ({ step }) => {
         />
         <figcaption>
             <h6 className="font-medium text-lg mb-3">{step.title}</h6>
-            <p className="text-light-500 font-garamond">{step.subtext}</p>
+            <p className="text-light-500 font-alvenir text-lg">{step.subtext}</p>
         </figcaption>
     </figure>
   )

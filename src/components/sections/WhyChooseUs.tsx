@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
     ];
 
   return (
-    <section className="py-16">
+    <section className="py-16 bg-highlight">
         <div className="container">
             <div className="flex gap-10">
                 <figure className="basis-3/5 mx-6 relative rounded-[40px] overflow-hidden">

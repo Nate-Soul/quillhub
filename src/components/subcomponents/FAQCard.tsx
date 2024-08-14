@@ -21,10 +21,10 @@ const FAQCard: React.FC<FAQCardProps> = ({ qa }) => {
             id={`accordionItem${qa.id}`}
             className="accordion-toggler flex items-center justify-between cursor-pointer marker:text-[0]" 
         >
-            <h3 className="text-xl font-medium text-dark-400 active:text-black hover:text-black">{qa.question}</h3>
+            <h3 className="text-xl font-medium text-dark-400 active:text-secondary-500 hover:text-secondary-500">{qa.question}</h3>
             <span className="accordion-marker bi-plus text-2xl"></span>
         </summary>
-        <p className="font-garamond text-light-300">
+        <p className="font-alvenir text-light-300">
             {qa.answer}
         </p>
     </details>

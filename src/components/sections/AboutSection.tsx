@@ -9,7 +9,7 @@ const AboutSection = () => {
       <div className="container">
         <SectionHeading title="About Us" headerStyles="mx-auto text-center mt-6 mb-10" />
         <div className="flex flex-col gap-y-8">
-            <div className="w-3/5 mx-auto font-garamond text-black">
+            <div className="w-3/5 mx-auto font-alvenir text-black">
                 <p>
                     QuillHub is dedicated to helping aspiring authors enhance their writing skills and develop a sustainable writing habit. We understand the challenges writers face in maintaining a consistent schedule. Our platform provides a comprehensive solution through customizable goal setting, progress tracking, motivational rewards, and community recognition. Whether you are an aspiring novelist, blogger, or freelance writer, QuillHub is here to support your writing journey.
                 </p>

@@ -41,10 +41,10 @@ const Testimonials = () => {
             headerStyles="mb-10 w-1/2 mx-auto text-center"
         />
         <div className="relative">
-            <button className="absolute top-1/2 -translate-y-1/2 left-0 btn h-16 w-14 rounded-3xl bg-white text-dark-400 hover:bg-primary-300 hover:text-light-200">
+            <button className="absolute top-1/2 -translate-y-1/2 left-0 btn h-16 w-14 rounded-3xl bg-white text-primary-900 hover:bg-primary-300">
                 <span className="bi-arrow-left"></span>
             </button>
-            <button className="absolute top-1/2 -translate-y-1/2 right-0 btn h-16 w-14 rounded-3xl bg-white text-dark-400 hover:bg-primary-300 hover:text-light-200">
+            <button className="absolute top-1/2 -translate-y-1/2 right-0 btn h-16 w-14 rounded-3xl bg-white text-primary-900 hover:bg-primary-300">
                 <span className="bi-arrow-right"></span>
             </button>
             <div className="grid grid-cols-3 gap-x-6 w-[85%] mx-auto">

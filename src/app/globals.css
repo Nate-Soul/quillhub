@@ -34,6 +34,10 @@
   @apply border-l-[5px] border-primary-900 bg-highlight;
 }
 
+.accordion-item[open] summary h3{
+  @apply text-secondary-500;
+}
+
 .accordion-item[open] .accordion-marker::before {
   content: "\F62A"
 } 

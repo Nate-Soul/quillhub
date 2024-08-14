@@ -36,11 +36,11 @@ const HowItWorks2 = () => {
             />
             <div className="grid grid-cols-3 gap-x-8 py-28">
             {steps && steps.map(step => (
-                <figure key={step.id} className="flex flex-col gap-y-4 items-center text-center p-3">
+                <figure key={step.id} className="flex flex-col gap-y-4 items-center text-center py-4 px-14">
                     <Image src={step.iconUrl} alt="" height={46} width={46} />
                     <figcaption className="flex flex-col gap-y-4 text-center">
                         <h4 className="font-medium text-lg text-secondary-500 capitalize">{step.title}</h4>
-                        <p className="text-lg text-light-500 leading-[24.59px] font-garamond">{step.description}</p>
+                        <p className="text-lg text-light-500 leading-[24.59px] font-alvenir">{step.description}</p>
                     </figcaption>
                 </figure>
             ))
@@ -48,7 +48,7 @@ const HowItWorks2 = () => {
             }
             </div>
             <div className="p-4 bg-primary-900 text-white text-center">
-                <p className="text-lg font-garamond">Dreaming of becoming an expert writer? <span className="font-semibold">Get Started</span></p>
+                <p className="text-lg font-alvenir">Dreaming of becoming an expert writer? <span className="font-semibold">Get Started</span></p>
             </div>
         </div>
     </section>

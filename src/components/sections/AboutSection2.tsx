@@ -10,7 +10,7 @@ const AboutSection2 = () => {
                     fancySubtitle="WHAT ARE WE KNOWN FOR"
                     title="ABOUT QUILLHUB"
                 />
-                <p>
+                <p className="text-lg text-light-500">
                     QuillHub is dedicated to helping aspiring authors enhance their writing skills and develop a sustainable writing habit. We understand the challenges writers face in maintaining a consistent schedule. Our platform provides a comprehensive solution through customizable goal setting, progress tracking, motivational rewards, and community recognition. Whether you are an aspiring novelist, blogger, or freelance writer, QuillHub is here to support your writing journey.
                 </p>
                 <button className="btn btn-primary-500 py-2 px-12 rounded-3xl w-max">

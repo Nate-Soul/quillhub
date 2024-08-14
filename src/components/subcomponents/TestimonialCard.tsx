@@ -15,7 +15,7 @@ interface TestimonialCardProps {
 
 const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
   return (
-    <div className="font-garamond">
+    <div className="font-alvenir">
       <div className="min-h-[24rem] p-10 bg-white rounded-tl-lg rounded-br-lg rounded-tr-[88px] rounded-bl-[88px]">
         <p className="text-dark-400">
             &ldquo;

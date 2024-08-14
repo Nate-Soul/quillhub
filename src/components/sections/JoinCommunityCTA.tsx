@@ -18,11 +18,11 @@ const JoinCommunityCTA = () => {
                     <div className="absolute top-0 left-0 bottom-0 right-0 bg-black bg-opacity-20"></div>
                     <div className="absolute top-1/4 -right-[10%] bg-highlight py-4 px-12 rounded-3xl z-10">
                         <h6 className="font-medium text-lg text-secondary-500">100+ writers</h6>
-                        <p className="text-sm font-garamond">trained over the globe</p>
+                        <p className="text-sm font-alvenir">trained over the globe</p>
                     </div>
                     <div className="absolute top-1/2 -right-[10%] transform -translate-y-1/2 bg-highlight py-4 px-12 rounded-3xl">
                         <h6 className="font-medium text-lg text-secondary-500">4.8 Ratings</h6>
-                        <p className="text-sm font-garamond">Trusted by 80k + Users</p>
+                        <p className="text-sm font-alvenir">Trusted by 80k + Users</p>
                     </div>
                 </figcaption>
             </figure>
@@ -32,7 +32,7 @@ const JoinCommunityCTA = () => {
                     title="Join our community of writers"
                     headerStyles="w-4/5"
                 />
-                <div className="text-lg font-garamond flex flex-col gap-y-4">
+                <div className="text-lg text-light-500 font-alvenir flex flex-col gap-y-4">
                     <p>
                         Join a vibrant community of writers who share your passion and commitment to writing. Our platform celebrates your milestones with awards like 'Most Consistent Writer of the Year' and provides a supportive environment to share your progress. 
                     </p>

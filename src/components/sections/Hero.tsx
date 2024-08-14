@@ -7,9 +7,8 @@ const Hero = () => {
       <div className="bg-highlight h-[150%] w-3/5 border transform -rotate-[15deg] absolute -top-1/4 -right-[10%] -z-[1]"></div>
       <div className="container grid grid-cols-2 gap-x-10">
         <div className="flex flex-col gap-y-6">
-          {/* <h6 className="font-medium text-sm text-secondary-500">"Empowering Writers Through Consistency"</h6> */}
           <h1 className="text-7xl leading-[93.97px] font-bold text-primary-900">Get Pro Feedback & Rewards to Level Up Your Writing</h1>
-          <p className="text-lg text-dark-400 font-garamond">
+          <p className="text-lg text-dark-400 font-alvenir">
             Designed to help you build and sustain a strong writing potential with expert feedback and a rewarding system that tracks your progress. Join our vibrant community of writers and take your writing to the next level.
           </p>
           <div className="flex items-center gap-x-6">
@@ -35,7 +34,7 @@ const Hero = () => {
             </div>
             <div className="flex flex-col gap-y-1">
               <h6 className="text-lg font-medium">4.8+ Ratings</h6>
-              <p className="text-sm font-garamond text-dark-400">Trusted by 80k + Users</p>
+              <p className="text-sm font-alvenir text-dark-400">Trusted by 80k + Users</p>
             </div>
           </div>
         </div>

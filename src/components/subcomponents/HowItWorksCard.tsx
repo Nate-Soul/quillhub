@@ -19,7 +19,7 @@ const HowItWorksCard: React.FC<HowItWorksCardProps> = ({ step }) => {
         >
             {step.title}
         </h6>
-        <p className="font-garamond text-light-500 ml-[85px]">{step.subtext}</p>
+        <p className="font-alvenir text-light-500 ml-[85px]">{step.subtext}</p>
     </div>
   )
 }

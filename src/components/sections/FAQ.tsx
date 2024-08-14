@@ -77,28 +77,28 @@ const FAQ = () => {
                 </figcaption>
             </figure>
             <div className="p-5">
-                <h4 className="text-xl mb-8">Do you have new questions? Ask away!</h4>
+                <h4 className="text-xl mb-8 text-secondary-500">Do you have new questions? Ask away!</h4>
                 <form className="flex flex-col gap-y-4">
                     <input 
                         type="text" 
                         name="query_name" 
                         id="queryName" 
-                        className="bg-white rounded-lg py-2 px-3 border border-light-500" 
+                        className="bg-white rounded-lg p-5 border border-light-500" 
                         placeholder="Name"
                     />
                     <input 
                         type="email" 
                         name="query_email" 
                         id="queryEmail" 
-                        className="bg-white rounded-lg py-2 px-3 border border-light-500" 
+                        className="bg-white rounded-lg p-5 border border-light-500" 
                         placeholder="Email Address"
                     />
                     <textarea 
                         name="query_message" 
                         id="queryMessage"
-                        rows={5}
+                        rows={6}
                         placeholder="Message"
-                        className="bg-white rounded-lg py-2 px-3 border border-light-500"
+                        className="bg-white rounded-lg p-5 border border-light-500"
                     ></textarea>
                     <button className="btn btn-primary-500 py-2 px-8 mx-auto mt-10 w-max rounded-4xl">Send Message</button>
                 </form>
