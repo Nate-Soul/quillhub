@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import SectionHeading from "@/components/subcomponents/SectionHeading";
-import { communityFeatures, whyUs } from "@/mock-database/community.data";
+import { communityFeatures, steps, whyUs } from "@/mock-database/community.data";
 import { features } from "process";
 
 const page = () => {
@@ -57,7 +57,7 @@ const page = () => {
             </div>
         </div>
     </section>
-    <section className="py-16 relative">
+    <section className="py-20 relative">
         <Image 
             src="/media/images/gallery/pretty_young_woman_with_curly_hair.png" 
             alt="" 
@@ -88,6 +88,88 @@ const page = () => {
                     <button className="btn btn-outline-white py-2 px-8 rounded-3xl font-bold">
                         Contact Us
                     </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section className="relative">
+        <div className="grid grid-cols-4">
+            <div className="col-span-1 overflow-hidden relative h-full">
+                <Image 
+                    src="/media/images/gallery/happy-lady-working-in-writing-hub.jpg" 
+                    height={708} 
+                    width={406} 
+                    alt=""
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-20"></div>
+            </div>
+            <div className="col-span-2 bg-white py-16 px-8 h-full">
+                <SectionHeading 
+                    fancySubtitle="GET INVOLVED"
+                    title="JOIN OUR COMMUNITY"
+                    subtitle="Join QuillHub's community today and take your writing to the next level with the power of collective motivation and support!"
+                    headerStyles="text-center mb-14"
+                />
+                <ul className="flex flex-col gap-y-8">
+                {steps?.map((step, stepIndex) => (
+                    <div className="flex items-start gap-x-3" key={stepIndex}>
+                        <div>
+                            <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_186_180" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="20">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2 10L4.5 7.5L9.5 12.5L19.5 2.5L22 5L9.5 17.5L2 10Z" fill="#555555" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                </mask>
+                                <g mask="url(#mask0_186_180)">
+                                <path d="M0 -2H24V22H0V-2Z" fill="#0FA958"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div className="flex flex-col gap-y-1">
+                            <h6>{step.title}</h6>
+                            <p>{step.subtext}</p>
+                        </div>
+                    </div>
+                ))}
+                </ul>
+            </div>
+            <div className="col-span-1 overflow-hidden relative h-full">
+                <Image 
+                    src="/media/images/gallery/happy-lady-working-in-writing-hub.jpg" 
+                    height={708} 
+                    width={783} 
+                    alt=""
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-20"></div>
+            </div>
+        </div>
+    </section>
+    <section className="py-14">
+        <div className="flex">
+            <div className="basis-3/5 relative">
+                <Image src="/media/images/gallery/woman-in-office-smiling.jpg" alt="" height={920} width={920} className="w-full h-full object-cover" />
+                <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-20"></div>
+            </div>
+            <div className="basis-2/5 py-10">
+                <div className="bg-[#f8f8f8] px-8 py-14 rounded-2xl -ml-[30%] relative w-full">
+                    <h3 className="font-extrabold font-alvenir text-3xl text-black mb-10">Send a Message</h3>
+                    <form className="flex flex-col gap-y-6">
+                        <div className="">
+                            <label htmlFor="emailAddress" className="block mb-1">Email</label>
+                            <input type="email" name="" id="emailAddress" className="border-[0.4px] border-[#B1AFB7] w-full p-4 rounded-3xl" />
+                        </div>
+                        <div className="">
+                            <label htmlFor="subject" className="block mb-1">Subject</label>
+                            <input type="text" name="" id="subject" className="border-[0.4px] border-[#B1AFB7] w-full p-4 rounded-3xl" />
+                        </div>
+                        <div className="">
+                            <label htmlFor="message" className="block mb-1">Message</label>
+                            <input type="email" name="" id="message" className="border-[0.4px] border-[#B1AFB7] w-full p-4 rounded-3xl" />
+                        </div>
+                        <Link href="/signup" className="btn btn-primary-500 py-3 px-20 rounded-3xl w-max block mx-auto mt-10">
+                            Send
+                        </Link>
+                    </form>
                 </div>
             </div>
         </div>

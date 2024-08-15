@@ -43,3 +43,26 @@ export const communityFeatures = [
         description: "Read about and share personal triumphs in your writing journey."
     },
 ];
+
+export const steps = [
+    {
+        id: 1,
+        title: "Create Your Profile",
+        subtext: "Showcase your writing style and goals."
+    },
+    {
+        id: 2,
+        title: "Join Discussions",
+        subtext: "Contribute to ongoing conversations or start your own thread."
+    },
+    {
+        id: 3,
+        title: "Attend Virtual Events",
+        subtext: "Participate in workshops, Q&A sessions with published authors, and writing sprints."
+    },
+    {
+        id: 4,
+        title: "Mentor & Be Mentored",
+        subtext: "Connect with writers at different stages of their journey."
+    },
+];
