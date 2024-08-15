@@ -1,4 +1,4 @@
-export const communityFeatures = [
+export const whyUs = [
     {
         id: 1,
         title: "Connect with 100+ Writers",
@@ -22,5 +22,24 @@ export const communityFeatures = [
         title: "Exclusive Awards",
         description: "Earn recognition like 'Most Consistent Writer of the Year' and other community accolades",
         imageURL: "/media/images/gallery/karolina-grabowska.jpg"
+    },
+];
+
+
+export const communityFeatures = [
+    {
+        id: 1,
+        title: "Forum",
+        description: "Participate in discussions on various writing topics, from overcoming writer's block to publishing tips."
+    },
+    {
+        id: 2,
+        title: "Writing Circles",
+        description: "Join small groups of writers for focused feedback and accountability."
+    },
+    {
+        id: 3,
+        title: "Success Stories",
+        description: "Read about and share personal triumphs in your writing journey."
     },
 ];

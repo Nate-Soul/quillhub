@@ -29,12 +29,12 @@ const alvenir = localFont({
       style: "normal",
     },
     {
-      path: "../static/fonts/alvenir/Avenir-Black.ttf",
+      path: "../static/fonts/alvenir/Avenir-Heavy.ttf",
       weight: "800",
       style: "normal",
     },
     {
-      path: "../static/fonts/alvenir/Avenir-Heavy.ttf",
+      path: "../static/fonts/alvenir/Avenir-Black.ttf",
       weight: "900",
       style: "normal",
     },
