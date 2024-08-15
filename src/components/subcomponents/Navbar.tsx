@@ -42,10 +42,12 @@ const Navbar = () => {
         <div className="flex items-center gap-x-14 text-lg text-light-300">
           <ul className="flex items-center gap-x-8">
             <li>
-              <span className="bi-search text-lg"></span>
+              <span className="bi-search"></span>
             </li>
             <li>
-              <span className="bi-person-circle text-lg"></span>
+              <Link href="/login">
+                <span className="bi-person-circle"></span>
+              </Link>
             </li>
           </ul>
           {/* <div className="flex items-center gap-x-4 border-[0.5px] rounded-2xl h-max">
